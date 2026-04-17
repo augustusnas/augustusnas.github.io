@@ -15,10 +15,9 @@ Pettigrew's framing runs counter to the dominant planning model. Strategy is not
 
 The framework Pettigrew built — context, content, process, time — places an unusual emphasis on where change happens rather than what change looks like. Inner context is the organisational reality: structures, culture, and political norms. Outer context is the environment pressing in. Most change efforts over-index on content, the "what," while under-investing in understanding the context that will either accelerate or suffocate it. As Pettigrew put it, dealing with *what* is harder than dealing with *how*. The how is a design problem. What forces you to confront competing interests, legacy systems, and the emotional weight of unlearning?
 
-<figure>
-  <img src="/images/diag2_framework.png" alt="Pettigrew's Framework for Analysing Change — a triangle diagram with Context at the apex, Content (the what) at the bottom left, and Process (the how) at the bottom right, with Time running along the base. Four definitions on the right explain each dimension, with the central insight that the what is harder than the how" />
-  <figcaption>FIG. 02 — Pettigrew's framework for analysing change. Context, content, and process unfold across time. Most change efforts over-index on content while neglecting the context that will either accelerate or suffocate it.</figcaption>
-</figure>
+![Pettigrew's Framework for Analysing Change — a triangle diagram with Context at the apex, Content (the what) at the bottom left, and Process (the how) at the bottom right, with Time running along the base. Four definitions on the right explain each dimension, with the central insight that the what is harder than the how](/images/diag2_framework.png)
+
+*FIG. 02 — Pettigrew's framework for analysing change. Context, content, and process unfold across time. Most change efforts over-index on content while neglecting the context that will either accelerate or suffocate it.*
 
 Crisis simplifies this. When survival is at stake, mobilisation becomes easier because the case for change is self-evident. But crisis-driven change has a structural weakness: it depends on a shared belief that the crisis is real. If that belief is unevenly distributed, the energy fractures. And if no crisis exists, leaders must manufacture urgency — a move that works precisely once before it erodes trust.
 
@@ -26,26 +25,23 @@ Crisis simplifies this. When survival is at stake, mobilisation becomes easier b
 
 Change is not a single event but a learning process with a recognisable arc: sense, concern, understand, plan, act. Each phase is vulnerable to regression. Energy dissipates. Political resistance consolidates. The J-curve — where performance dips before it rises — is the period when most change efforts are quietly abandoned, not because they failed, but because the organisation lost patience with the transition costs.
 
-<figure>
-  <img src="/images/diag1_jcurve_2.png" alt="The J-Curve diagram showing how performance dips below the pre-change baseline before recovering — with the danger zone marked as the point where most change programmes are abandoned or committed to" />
-  <figcaption>FIG. 01 — Performance trajectory across a change programme. The danger zone is where most change efforts are quietly abandoned — because the organisation lost patience with the transition cost rather than failure.</figcaption>
-</figure>
+![The J-Curve diagram showing how performance dips below the pre-change baseline before recovering — with the danger zone marked as the point where most change programmes are abandoned or committed to](/images/diag1_jcurve_2.png)
+
+*FIG. 01 — Performance trajectory across a change programme. The danger zone is where most change efforts are quietly abandoned — because the organisation lost patience with the transition cost rather than failure.*
 
 *Partial moves drive down performance.* This is the insight most change sponsors ignore. Thinking in systems means committing to sets of changes, not isolated interventions. When leaders implement one piece of a broader transformation and wait to see results, they create the very dip they were trying to avoid. The system needs to move together, which requires what Joseph Nye would call contextual intelligence — the judgment to read the environment and calibrate the type of power being applied.
 
-<figure>
-  <img src="/images/diag3_loop.png" alt="The Political Learning Loop — a five-stage framework progressing from Sense to Concern to Understand to Plan & Act to Change, with a note that regression is always possible at each phase" />
-  <figcaption>FIG. 03 — The five-phase arc of organisational change. Each phase is vulnerable to regression. Knowing where you are in the process is critical.</figcaption>
-</figure>
+![The Political Learning Loop — a five-stage framework progressing from Sense to Concern to Understand to Plan & Act to Change, with a note that regression is always possible at each phase](/images/diag3_loop.png)
+
+*FIG. 03 — The five-phase arc of organisational change. Each phase is vulnerable to regression. Knowing where you are in the process is critical.*
 
 ## The directional story
 
 Pettigrew's most practical insight may be the simplest. Change requires a directional story with one foot in the present and one in the future. Not a vision statement. Not an aspirational slide deck. A story that acknowledges where the organisation actually is while making the destination concrete enough to sustain effort across what can be a decade-long process.
 
-<figure>
-  <img src="/images/diag4_power.png" alt="Joseph S. Nye's Hard, Soft and Smart Power framework — three columns contrasting coercion and incentives, attraction and persuasion, and the contextual intelligence to know which form of power is needed and when" />
-  <figcaption>FIG. 04 — Joseph S. Nye's power typology applied to organisational change. Smart power is not a blend of hard and soft — it is the contextual intelligence to know what the moment demands.</figcaption>
-</figure>
+![Joseph S. Nye's Hard, Soft and Smart Power framework — three columns contrasting coercion and incentives, attraction and persuasion, and the contextual intelligence to know which form of power is needed and when](/images/diag4_power.png)
+
+*FIG. 04 — Joseph S. Nye's power typology applied to organisational change. Smart power is not a blend of hard and soft — it is the contextual intelligence to know what the moment demands.*
 
 This is where leadership becomes non-negotiable. Intergenerational leadership change — the reality that large-scale transformation outlasts individual tenures — means the story must be transferable. It cannot live in one leader's charisma. It must be embedded in measurement systems, recognition structures, and the cultural norms that signal which behaviour actually matters. McKinsey's point about clarifying behaviour lands here: reward systems are the revealed strategy of an organisation. If they do not change, nothing else does.
 
