@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
 const recentPosts = (await getCollection('blog'))
+  .filter(p => !p.data.draft)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, 2);
 ---
@@ -59,37 +60,30 @@ const recentPosts = (await getCollection('blog'))
 
 <div class="hero">
   <div class="hero-left">
-    <div class="hero-eyebrow">Consultant · Coach · Mentor</div>
-    <h1 class="hero-headline">Strategy that moves businesses forward</h1>
-    <p class="hero-sub">I work with founders and leadership teams to sharpen thinking, build better systems, and grow with intention.</p>
+    <h1 class="hero-headline">Most transformation programmes fail not because the plan is wrong — but because the politics were never named.</h1>
+    <p class="hero-sub">I help senior leaders in SaaS and technology businesses diagnose why delivery is stalling, and build the conditions for it to move.</p>
     <a class="btn-primary" href="/about">About me →</a>
   </div>
   <div class="hero-right">
     <div class="hero-monogram">AN</div>
-    <div class="hero-stats">
-      <div class="stat-cell"><div class="stat-num">12+</div><div class="stat-label">Years</div></div>
-      <div class="stat-cell"><div class="stat-num">60+</div><div class="stat-label">Clients</div></div>
-      <div class="stat-cell"><div class="stat-num">3</div><div class="stat-label">Sectors</div></div>
-      <div class="stat-cell"><div class="stat-num">£M+</div><div class="stat-label">Value Created</div></div>
-    </div>
   </div>
 </div>
 
 <div class="services-strip">
   <div class="service-cell">
     <span class="service-num">01</span>
-    <div class="service-title">Business Consulting</div>
-    <p class="service-desc">Diagnosing where growth is stalling and building the operating model to fix it. Strategy without execution theatre.</p>
+    <div class="service-title">Diagnostic Consulting</div>
+    <p class="service-desc">I work with leadership teams to find where delivery is breaking down and why. The technical challenge is rarely the hard part. The hard part is the incentive and political architecture underneath it. Strategy without that diagnosis is just planning.</p>
   </div>
   <div class="service-cell">
     <span class="service-num">02</span>
     <div class="service-title">Executive Coaching</div>
-    <p class="service-desc">One-to-one work with founders and senior leaders navigating inflection points, transitions, and high-stakes decisions.</p>
+    <p class="service-desc">One-to-one work with senior leaders navigating transformation, inflection points, and high-stakes decisions. The focus is on building the judgment to read situations clearly — not just manage them.</p>
   </div>
   <div class="service-cell">
     <span class="service-num">03</span>
-    <div class="service-title">Mentorship</div>
-    <p class="service-desc">Long-form relationships with ambitious professionals building toward leadership. Honest, experienced, direct.</p>
+    <div class="service-title">Advisory</div>
+    <p class="service-desc">Long-form relationships with leaders who want an outside perspective that is honest, experienced, and grounded in practice. Not a sounding board. A thinking partner.</p>
   </div>
 </div>
 
@@ -112,7 +106,7 @@ const recentPosts = (await getCollection('blog'))
 </div>
 
 <div class="cta-strip">
-  <div class="cta-text">"The best time to get strategic clarity<br>is before you need it urgently."</div>
+  <div class="cta-text">"Incentives don't reward creativity; they reward credibility. And credibility is often purchased with complexity."</div>
   <a class="btn-primary" href="mailto:hello@augustusnas.com">Get in touch →</a>
 </div>
 </Base>

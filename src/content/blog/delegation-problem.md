@@ -3,6 +3,7 @@ title: "The Delegation Problem: Why Smart Founders Stay in the Weeds"
 description: "Control feels like safety, but it's the single biggest limiter on organisational scale."
 pubDate: 2025-03-01
 tags: ["Leadership"]
+draft: true
 ---
 
 The founders I work with are not, as a rule, control freaks. They're smart, self-aware people who know — intellectually — that they need to delegate more. And yet they don't. Or they do, and then quietly take it back.

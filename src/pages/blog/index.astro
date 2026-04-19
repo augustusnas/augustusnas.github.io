@@ -2,9 +2,9 @@
 import Base from '../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
-const posts = (await getCollection('blog')).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+const posts = (await getCollection('blog'))
+  .filter(p => !p.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 <Base title="Writing — Augustus Nas">
 <style>
@@ -32,7 +32,7 @@ const posts = (await getCollection('blog')).sort(
 
 <div class="blog-header">
   <h1 class="blog-headline">Writing</h1>
-  <p class="blog-sub">Thinking on strategy, leadership, and building businesses that last.</p>
+  <p class="blog-sub">Thinking on transformation, incentives, and why capable organisations make predictably bad decisions.</p>
 </div>
 
 <div class="blog-list">

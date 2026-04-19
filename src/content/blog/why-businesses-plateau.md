@@ -3,6 +3,7 @@ title: "Why Most Businesses Plateau at £1M — and What Actually Breaks the Cei
 description: "The constraint is rarely the market. It's almost always an operating model built for a business that no longer exists."
 pubDate: 2025-04-01
 tags: ["Strategy"]
+draft: true
 ---
 
 Most businesses that plateau at £1M are not short of opportunity. They're short of operating model.

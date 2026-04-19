@@ -13,7 +13,7 @@ import Base from '../layouts/Base.astro';
   .about-eyebrow { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 20px; }
   .about-headline { font-family: var(--serif); font-size: 28px; font-weight: 700; line-height: 1.2; margin-bottom: 24px; letter-spacing: -0.01em; }
   .about-body { font-size: 14px; line-height: 1.85; color: var(--mid); margin-bottom: 16px; }
-  .credentials { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule); margin-top: 32px; }
+  .credentials { display: grid; grid-template-columns: 1fr; gap: 1px; background: var(--rule); margin-top: 32px; }
   .cred-cell { background: var(--paper); padding: 20px; }
   .cred-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--mid); margin-bottom: 6px; }
   .cred-value { font-family: var(--serif); font-size: 14px; font-weight: 700; }
@@ -22,7 +22,7 @@ import Base from '../layouts/Base.astro';
     .about-left { border-right: none; border-bottom: 1px solid var(--rule); padding: 36px 20px; }
     .about-initials { font-size: 52px; }
     .about-right { padding: 32px 20px; }
-    .credentials { grid-template-columns: 1fr 1fr; }
+    .credentials { grid-template-columns: 1fr; }
   }
 </style>
 
@@ -37,26 +37,23 @@ import Base from '../layouts/Base.astro';
   </div>
   <div class="about-right">
     <div class="about-eyebrow">About me</div>
-    <h1 class="about-headline">I help businesses grow without losing what makes them work</h1>
-    <p class="about-body">With over a decade of experience working across start-ups, scale-ups, and established businesses, I specialise in the inflection points — those critical moments where the strategy that got you here won't get you where you're going next.</p>
-    <p class="about-body">My background spans consulting, organisational design, and leadership development. I bring a systems thinker's discipline to the messy, human reality of running a business.</p>
-    <p class="about-body">I work with a small number of clients at any one time — by design. Deep, sustained engagement produces better results than advisory at arm's length.</p>
+    <p class="about-body">Most organisations I work with already know something is wrong. The plan is reasonable. The team is capable. The platform works. And yet delivery stalls, adoption lags, and the gap between what was promised and what the customer experiences keeps widening.</p>
+    <p class="about-body">The problem is almost never what it appears to be on the surface. It is almost always an incentive problem, a political problem, or a diagnosis problem — and usually some combination of all three.</p>
+    <p class="about-body">I have spent eighteen years working inside that gap, across enterprise SaaS businesses in the UK and Europe. I have seen transformations fail because the project team could not name the political dynamics in the room. I have seen adoption programmes miss because the delivery model was designed around the platform's capabilities rather than the customer's behaviour. I have seen governance frameworks that looked rigorous on paper and created paralysis in practice.</p>
+    <p class="about-body">What I do is find the real constraint and help leadership build around it — not around the one that is easiest to name in a steering committee.</p>
+    <p class="about-body">I work with a small number of clients at any one time. That is a deliberate choice. The work requires sustained attention, not advisory at arm's length.</p>
     <div class="credentials">
       <div class="cred-cell">
-        <div class="cred-label">Specialisms</div>
-        <div class="cred-value">Strategy & Growth</div>
+        <div class="cred-label">Domain</div>
+        <div class="cred-value">Enterprise SaaS · Customer Experience · Transformation</div>
       </div>
       <div class="cred-cell">
-        <div class="cred-label">Experience</div>
-        <div class="cred-value">12+ Years</div>
+        <div class="cred-label">Geography</div>
+        <div class="cred-value">UK and Europe</div>
       </div>
       <div class="cred-cell">
-        <div class="cred-label">Location</div>
-        <div class="cred-value">London, UK</div>
-      </div>
-      <div class="cred-cell">
-        <div class="cred-label">Availability</div>
-        <div class="cred-value">Limited Q3 2025</div>
+        <div class="cred-label">Engagement</div>
+        <div class="cred-value">Retained advisory · Diagnostic consulting · Executive coaching</div>
       </div>
     </div>
   </div>

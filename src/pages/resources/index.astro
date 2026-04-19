@@ -1,81 +1,39 @@
 ---
 import Base from '../../layouts/Base.astro';
-
-const resources = [
-  {
-    category: 'Strategy',
-    title: 'The 3-Horizon Growth Framework',
-    desc: 'A structured approach to balancing short-term performance with medium and long-term positioning. Used across consulting engagements to prioritise investment.',
-    type: 'Framework',
-  },
-  {
-    category: 'Leadership',
-    title: 'The Decision Rights Matrix',
-    desc: 'Clarify who decides, who advises, and who is informed — at every level of the organisation. Removes the ambiguity that slows teams down.',
-    type: 'Template',
-  },
-  {
-    category: 'Operations',
-    title: 'Quarterly Business Review Template',
-    desc: 'A structured QBR format that surfaces the right questions: what worked, what didn\'t, and what needs to change in the next 90 days.',
-    type: 'Template',
-  },
-  {
-    category: 'Coaching',
-    title: 'The Leadership Audit',
-    desc: 'A self-assessment tool for founders and senior leaders. 20 questions across 5 dimensions — clarity, accountability, communication, energy, and leverage.',
-    type: 'Self-assessment',
-  },
-  {
-    category: 'Strategy',
-    title: 'Competitive Positioning Canvas',
-    desc: 'Map your market position against what customers actually value — not what you assume they value. Forces honest conversation about differentiation.',
-    type: 'Framework',
-  },
-  {
-    category: 'Operations',
-    title: 'The Accountability Stack',
-    desc: 'A simple system for translating annual objectives into weekly team actions, with clear ownership and escalation paths at each level.',
-    type: 'Framework',
-  },
-];
 ---
 <Base title="Resources — Augustus Nas">
 <style>
   .resources-header { padding: 48px 40px 32px; border-bottom: 1px solid var(--rule); }
   .resources-headline { font-family: var(--serif); font-size: 42px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; }
   .resources-sub { font-size: 14px; color: var(--mid); }
-  .resources-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--rule); }
-  .resource-card { background: var(--paper); padding: 32px; transition: background 0.15s; }
-  .resource-card:hover { background: white; }
-  .resource-category { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; font-weight: 500; }
-  .resource-title { font-family: var(--serif); font-size: 17px; font-weight: 700; line-height: 1.3; margin-bottom: 10px; }
-  .resource-desc { font-size: 12px; line-height: 1.7; color: var(--mid); margin-bottom: 20px; }
-  .resource-tag { display: inline-block; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 10px; border: 1px solid var(--rule); color: var(--mid); }
+  .tools-list { border-bottom: 1px solid var(--rule); }
+  .tool-card { padding: 48px 40px; border-bottom: 1px solid var(--rule); }
+  .tool-card:last-child { border-bottom: none; }
+  .tool-title { font-family: var(--serif); font-size: 22px; font-weight: 700; line-height: 1.2; margin-bottom: 20px; letter-spacing: -0.01em; }
+  .tool-desc { font-size: 14px; line-height: 1.85; color: var(--mid); max-width: 640px; margin-bottom: 28px; }
+  .tool-download { display: inline-block; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mid); border-bottom: 1px solid var(--rule); padding-bottom: 2px; cursor: default; }
   @media (max-width: 768px) {
     .resources-header { padding: 32px 20px 24px; }
     .resources-headline { font-size: 32px; }
-    .resources-grid { grid-template-columns: 1fr; }
-    .resource-card { padding: 24px 20px; }
-  }
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .resources-grid { grid-template-columns: repeat(2, 1fr); }
+    .tool-card { padding: 32px 20px; }
   }
 </style>
 
 <div class="resources-header">
-  <h1 class="resources-headline">Resources</h1>
-  <p class="resources-sub">Frameworks and tools I use with clients. Free to apply.</p>
+  <h1 class="resources-headline">Diagnostic Tools</h1>
+  <p class="resources-sub">Frameworks built from practice. Not adapted from textbooks.</p>
 </div>
 
-<div class="resources-grid">
-  {resources.map(r => (
-    <div class="resource-card">
-      <div class="resource-category">{r.category}</div>
-      <div class="resource-title">{r.title}</div>
-      <p class="resource-desc">{r.desc}</p>
-      <span class="resource-tag">{r.type}</span>
-    </div>
-  ))}
+<div class="tools-list">
+  <div class="tool-card">
+    <div class="tool-title">The Change Politics Audit</div>
+    <p class="tool-desc">Before any transformation programme moves into delivery, this diagnostic surfaces the political and incentive dynamics that will determine whether it lands. Fifteen questions across five dimensions: power distribution, incentive alignment, dependency mapping, resistance patterns, and decision architecture.</p>
+    <span class="tool-download">Download — coming soon</span>
+  </div>
+  <div class="tool-card">
+    <div class="tool-title">The Adoption Gap Diagnostic</div>
+    <p class="tool-desc">For SaaS businesses where a platform is technically sound but customer adoption is underperforming. Identifies whether the gap is a product problem, a delivery problem, a customer expectation problem, or a combination. Used at the start of engagements to focus effort on the right lever.</p>
+    <span class="tool-download">Download — coming soon</span>
+  </div>
 </div>
 </Base>
